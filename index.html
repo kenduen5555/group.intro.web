@@ -1,52 +1,103 @@
-<!doctype html>
+<!doctype html> 
 <html lang="en">
+  <!-- กำหนดเอกสารให้เป็น HTML5 และระบุภาษาของเนื้อหาเป็นภาษาอังกฤษ -->
+  
   <head>
+    <!-- ส่วนหัวของเอกสาร HTML -->
     <meta charset="utf-8">
+    <!-- กำหนดการเข้ารหัสอักขระเป็น UTF-8 เพื่อรองรับตัวอักษรหลายภาษา -->
+    
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- กำหนดให้หน้าจอแสดงผลเหมาะสมกับขนาดหน้าจออุปกรณ์ต่าง ๆ เช่น มือถือ -->
+    
     <title>Bootstrap demo</title>
+    <!-- ชื่อแท็บของหน้าเว็บไซต์ -->
+    
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <!-- ลิงก์ไปยังไฟล์ CSS ของ Bootstrap เวอร์ชัน 5.3.3 เพื่อใช้งานสไตล์สำเร็จรูป -->
   </head>
+  
   <body>
+    <!-- เนื้อหาหลักของเว็บไซต์ -->
+    
     <h1>IoTE-sport</h1>
+    <!-- หัวข้อหลักของหน้าเว็บ -->
+    
     <nav class="navbar navbar-expand-lg bg-body-tertiary navbar bg-dark border-bottom border-body" data-bs-theme="dark">
+      <!-- สร้างแถบนำทางด้วยคลาส Bootstrap พร้อมกำหนดธีมให้เป็นสีเข้ม -->
+      
       <div class="container-fluid">
+        <!-- ใช้คอนเทนเนอร์แบบเต็มหน้าจอ -->
+        
         <a class="navbar-brand" href="#">ROV-Moba888</a>
+        <!-- โลโก้หรือลิงก์หลักของ Navbar -->
+        
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <!-- ปุ่มสำหรับย่อ/ขยายเมนูในอุปกรณ์ขนาดเล็ก -->
+          
           <span class="navbar-toggler-icon"></span>
+          <!-- ไอคอนแสดงปุ่ม -->
         </button>
+        
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <!-- เนื้อหาที่จะถูกซ่อนไว้เมื่อหน้าจอมีขนาดเล็ก -->
+          
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <!-- กลุ่มรายการเมนูในแถบนำทาง -->
+            
             <li class="nav-item">
               <a class="nav-link active" aria-current="page" href="#">Home</a>
+              <!-- ลิงก์เมนูไปยังหน้า Home -->
             </li>
+            
             <li class="nav-item">
               <a class="nav-link" href="#">Link</a>
+              <!-- ลิงก์เมนูปกติ -->
             </li>
+            
             <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                 Dropdown
               </a>
+              <!-- เมนูแบบดรอปดาวน์ -->
+              
               <ul class="dropdown-menu">
+                <!-- รายการในเมนูดรอปดาวน์ -->
+                
                 <li><a class="dropdown-item" href="#">Action</a></li>
+                <!-- รายการแรกในเมนูดรอปดาวน์ -->
+                
                 <li><a class="dropdown-item" href="#">Another action</a></li>
+                <!-- รายการที่สองในเมนูดรอปดาวน์ -->
+                
                 <li><hr class="dropdown-divider"></li>
+                <!-- เส้นแบ่งระหว่างรายการ -->
+                
                 <li><a class="dropdown-item" href="#">Something else here</a></li>
+                <!-- รายการอื่น ๆ -->
               </ul>
             </li>
+            
             <li class="nav-item">
               <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+              <!-- เมนูที่ถูกปิดการใช้งาน -->
             </li>
           </ul>
+          
           <form class="d-flex" role="search">
+            <!-- ฟอร์มค้นหา -->
+            
             <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <!-- ช่องป้อนข้อความสำหรับค้นหา -->
+            
             <button class="btn btn-outline-success" type="submit">Search</button>
+            <!-- ปุ่มสำหรับส่งฟอร์มค้นหา -->
           </form>
         </div>
       </div>
     </nav>
-    <nav>  <nav class="navbar navbar-expand-lg bg-body-tertiary navbar bg-dark border-bottom border-body" data-bs-theme="grey">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="#">Murcielago</a></nav>
+    
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <!-- ลิงก์ไปยังไฟล์ JavaScript ของ Bootstrap สำหรับฟีเจอร์แบบไดนามิก เช่น ดรอปดาวน์ -->
   </body>
 </html>
